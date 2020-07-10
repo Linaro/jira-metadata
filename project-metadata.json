@@ -32,7 +32,17 @@
       { "name": "No" },
       { "name": "Yes" }
      ]
+    },
+    {
+     "key": "Team Project",
+     "group": "Project Visibility",
+     "schema": { "type": "select" },
+     "allowedValues": [
+      { "name": "No" },
+      { "name": "Yes" }
+     ]
     }
+
    ]
   },
   {
