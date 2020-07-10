@@ -1,0 +1,195 @@
+{
+ "key": "metadata-screen-project-linaro",
+ "name": "Linaro Project Metadata Screen",
+ "group": [
+  {
+   "name": "Project Visibility",
+   "fullRow": false,
+   "metadata": [
+    {
+     "key": "Open",
+     "group": "Project Visibility",
+     "schema": {
+      "type": "select"
+     },
+     "allowedValues": [
+      {
+       "name": "No (default)"
+      },
+      {
+       "name": "Yes"
+      }
+     ]
+    },
+    {
+     "key": "Active",
+     "group": "Project Visibility",
+     "schema": {
+      "type": "select"
+     },
+     "allowedValues": [
+      {
+       "name": "No (default)"
+      },
+      {
+       "name": "Yes"
+      }
+     ]
+    },
+    {
+     "key": "Published",
+     "group": "Project Visibility",
+     "schema": {
+      "type": "select"
+     },
+     "allowedValues": [
+      {
+       "name": "No (default)"
+      },
+      {
+       "name": "Yes"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Project Ownership",
+   "fullRow": false,
+   "metadata": [
+    {
+     "key": "Project Owner",
+     "group": "Project Ownership",
+     "schema": {
+      "type": "user"
+     }
+    },
+    {
+     "key": "Technical Lead",
+     "group": "Project Ownership",
+     "schema": {
+      "type": "user"
+     }
+    },
+    {
+     "key": "Governing Entity",
+     "group": "Project Ownership",
+     "schema": {
+      "type": "select"
+     },
+     "allowedValues": [
+      {
+       "name": "Linaro"
+      },
+      {
+       "name": "TSC"
+      },
+      {
+       "name": "AI/ML SC"
+      },
+      {
+       "name": "CLOUD SC"
+      },
+      {
+       "name": "LCG SC"
+      },
+      {
+       "name": "LDCG SC"
+      },
+      {
+       "name": "LITE SC"
+      },
+      {
+       "name": "LEDGE SC"
+      },
+      {
+       "name": "Project Board"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Project Contact Information",
+   "fullRow": true,
+   "metadata": [
+    {
+     "key": "Meetings",
+     "group": "Project Contact Information",
+     "schema": {
+      "type": "longstring"
+     }
+    },
+    {
+     "key": "Point of Contact",
+     "group": "Project Contact Information",
+     "schema": {
+      "type": "longstring"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Project Information",
+   "fullRow": false,
+   "metadata": [
+    {
+     "key": "Project Homepage",
+     "group": "Project Information",
+     "schema": {
+      "type": "string"
+     }
+    },
+    {
+     "key": "Plan Of Record",
+     "group": "Project Information",
+     "schema": {
+      "type": "string"
+     }
+    },
+    {
+     "key": "Health Check Report",
+     "group": "Project Information",
+     "schema": {
+      "type": "string"
+     }
+    },
+    {
+     "key": "JIRA Structure",
+     "group": "Project Information",
+     "schema": {
+      "type": "string"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Project Artefacts",
+   "fullRow": false,
+   "metadata": [
+    {
+     "key": "Repositories",
+     "group": "Project Artefacts",
+     "schema": {
+      "type": "string"
+     }
+    },
+    {
+     "key": "Documentation",
+     "group": "Project Artefacts",
+     "schema": {
+      "type": "string"
+     }
+    },
+    {
+     "key": "Downloads",
+     "group": "Project Artefacts",
+     "schema": {
+      "type": "string"
+     }
+    }
+   ]
+  }
+ ]
+}
+
