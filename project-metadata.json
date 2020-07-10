@@ -9,46 +9,28 @@
     {
      "key": "Open",
      "group": "Project Visibility",
-     "schema": {
-      "type": "select"
-     },
+     "schema": { "type": "select" },
      "allowedValues": [
-      {
-       "name": "No (default)"
-      },
-      {
-       "name": "Yes"
-      }
+      { "name": "No" },
+      { "name": "Yes" }
      ]
     },
     {
      "key": "Active",
      "group": "Project Visibility",
-     "schema": {
-      "type": "select"
-     },
+     "schema": { "type": "select" },
      "allowedValues": [
-      {
-       "name": "No (default)"
-      },
-      {
-       "name": "Yes"
-      }
+      { "name": "No" },
+      { "name": "Yes" }
      ]
     },
     {
      "key": "Published",
      "group": "Project Visibility",
-     "schema": {
-      "type": "select"
-     },
+     "schema": { "type": "select" },
      "allowedValues": [
-      {
-       "name": "No (default)"
-      },
-      {
-       "name": "Yes"
-      }
+      { "name": "No" },
+      { "name": "Yes" }
      ]
     }
    ]
@@ -60,51 +42,27 @@
     {
      "key": "Project Owner",
      "group": "Project Ownership",
-     "schema": {
-      "type": "user"
-     }
+     "schema": { "type": "user" }
     },
     {
      "key": "Technical Lead",
      "group": "Project Ownership",
-     "schema": {
-      "type": "user"
-     }
+     "schema": { "type": "user" }
     },
     {
      "key": "Governing Entity",
      "group": "Project Ownership",
-     "schema": {
-      "type": "select"
-     },
+     "schema": { "type": "select" },
      "allowedValues": [
-      {
-       "name": "Linaro"
-      },
-      {
-       "name": "TSC"
-      },
-      {
-       "name": "AI/ML SC"
-      },
-      {
-       "name": "CLOUD SC"
-      },
-      {
-       "name": "LCG SC"
-      },
-      {
-       "name": "LDCG SC"
-      },
-      {
-       "name": "LITE SC"
-      },
-      {
-       "name": "LEDGE SC"
-      },
-      {
-       "name": "Project Board"
-      }
+      { "name": "Linaro" },
+      { "name": "TSC" },
+      { "name": "AI/ML SC" },
+      { "name": "CLOUD SC" },
+      { "name": "LCG SC" },
+      { "name": "LDCG SC" },
+      { "name": "LITE SC" },
+      { "name": "LEDGE SC" },
+      { "name": "Project Board" }
      ]
     }
    ]
@@ -116,16 +74,12 @@
     {
      "key": "Meetings",
      "group": "Project Contact Information",
-     "schema": {
-      "type": "longstring"
-     }
+     "schema": { "type": "longstring" }
     },
     {
      "key": "Point of Contact",
      "group": "Project Contact Information",
-     "schema": {
-      "type": "longstring"
-     }
+     "schema": { "type": "longstring" }
     }
    ]
   },
@@ -136,30 +90,22 @@
     {
      "key": "Project Homepage",
      "group": "Project Information",
-     "schema": {
-      "type": "string"
-     }
+     "schema": { "type": "string" }
     },
     {
      "key": "Plan Of Record",
      "group": "Project Information",
-     "schema": {
-      "type": "string"
-     }
+     "schema": { "type": "string" }
     },
     {
      "key": "Health Check Report",
      "group": "Project Information",
-     "schema": {
-      "type": "string"
-     }
+     "schema": { "type": "string" }
     },
     {
      "key": "JIRA Structure",
      "group": "Project Information",
-     "schema": {
-      "type": "string"
-     }
+     "schema": { "type": "string" }
     }
    ]
   },
@@ -170,23 +116,17 @@
     {
      "key": "Repositories",
      "group": "Project Artefacts",
-     "schema": {
-      "type": "string"
-     }
+     "schema": { "type": "string" }
     },
     {
      "key": "Documentation",
      "group": "Project Artefacts",
-     "schema": {
-      "type": "string"
-     }
+     "schema": { "type": "string" }
     },
     {
      "key": "Downloads",
      "group": "Project Artefacts",
-     "schema": {
-      "type": "string"
-     }
+     "schema": { "type": "string" }
     }
    ]
   }
