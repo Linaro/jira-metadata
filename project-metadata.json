@@ -116,7 +116,13 @@
      "key": "JIRA Structure",
      "group": "Project Information",
      "schema": { "type": "string" }
+    },
+    {
+     "key": "Related Projects",
+     "group": "Project Information",
+     "schema": { "type": "longstring" }
     }
+
    ]
   },
   {
